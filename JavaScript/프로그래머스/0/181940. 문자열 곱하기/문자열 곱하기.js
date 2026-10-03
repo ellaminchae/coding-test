@@ -1,7 +1,4 @@
 function solution(my_string, k) {
-    var answer = '';
-    for(let i=0; i<k; i++){
-        answer += my_string;
-    }
+    var answer = my_string.repeat(k);
     return answer;
 }
