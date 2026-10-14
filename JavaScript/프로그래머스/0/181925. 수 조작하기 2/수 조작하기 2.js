@@ -14,6 +14,7 @@ function solution(numLog) {
                 break;
             case -10:
                 answer+='a';
+                break;
         }
     }
     return answer;
